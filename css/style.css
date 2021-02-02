@@ -15,7 +15,7 @@
 
 
 
-/*caraousel*/
+/***************************caraousel******************/
 
 .banner-h1 {
     position: absolute;
@@ -152,12 +152,12 @@
     top: 44%;
 	box-shadow: 0px 7px 7px #00000061;
 }
-/*caraousel**/
+/********************************caraousel***************************/
 
 
 /*navbar*/
 
-/*navigation*/
+/*********************navigation********************/
 .nav-item::after{
     content:'';
     display:block;
@@ -200,7 +200,7 @@
 }
 }
 
-/*navigation*/
+/***********************navigation******************/
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color:#fff;
@@ -386,6 +386,8 @@ transition-delay:.2s;
 	color: #f8f9fa;
 }
 
+
+
 /*model*/
 
 /* explore */
@@ -478,12 +480,12 @@ figure:hover img {
 .hl{border-top: 1px solid rgba(110, 104, 95, 0.26);}
 
 
-.sc a{color:#fff;padding-right: 10px;text-decoration: none;}
+.sc a{color:#999;padding-right: 10px;text-decoration: none;}
 .sc .sc1:hover{color: #3b5998;}
 .sc .sc2:hover{color: #00acee}
 .sc .sc3:hover{color: #ffdc7d}
 
-.lia a{color: #fff;text-decoration: none}
+.lia a{color:#999;text-decoration: none}
 .lia a:hover{color:#007bfe}
 
 
@@ -496,12 +498,13 @@ figure:hover img {
         background-color: rgba(0, 0, 0, 0);
     background-size:cover;
 	padding:255px 0;
+	position: relative;
 }
 
 .p-heading{
 	position: absolute;
 	color: #fff;
-	bottom:-10%;
+	bottom:10%;
 	right:10%;
 }
 
@@ -642,7 +645,7 @@ figure:hover img {
 
 
 
-@media only screen and (min-width:576px) and (max-width:768px){
+@media only screen and (min-width:577px) and (max-width:768px){
 .p2 {
     font-size: 9px;
     display: block;
@@ -676,7 +679,7 @@ p{
 }
 }
 
-@media only screen and (min-width:360px) and (max-width:567px){
+@media only screen and (min-width:360px) and (max-width:576px){
 .p2 {
     font-size: 9px;
     display: block;
@@ -725,6 +728,51 @@ h5, .h5 {
 }
 p{
     word-wrap: anywhere;
+}
+.brk{max-width: 70%;
+	
+}
+	
+.model {
+	padding: 6vw;
+    font-size: 4vw;
+}
+	
+.hovereffect a.info {
+
+    font-size: 3vw;
+}
+	
+.banner-btn {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+}
+
+.lh1 {
+    width: 2px;
+}
+
+.banner-btn2 {
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+	
+.banner-btn2 {
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+	
+.lw1 {
+    height: 2px;
+}
+	
+.banner-btn3 {
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+
+.banner3-h2 {
+    line-height: 2vw;
 }
 }
 
